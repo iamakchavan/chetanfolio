@@ -9,8 +9,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Prateek - Product Marketer & Creative',
-  description: 'Portfolio of Prateek, a product marketer and creative based in Berlin, Germany',
+  title: 'Chetan Kittali - Data Scientist & Analyst',
+  description: 'Portfolio of Chetan Kittali, a data scientist and analyst based in Hubli, Karnataka, India',
 };
 
 export default function RootLayout({
