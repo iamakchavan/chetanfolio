@@ -116,16 +116,16 @@ export default function Home() {
         <section className="section-container animate-on-load delay-300">
           <h2 className="section-title">EXPERIENCE</h2>
           <div className="p-3 rounded-lg bg-secondary/20 border border-border/30">
-            <div className="flex items-center gap-8">
+            <div className="flex items-center justify-between">
               <h3 className="font-bold text-lg">Data Science Intern</h3>
-              <div className="company-badge">
-                <div className="w-6 h-6 bg-secondary flex items-center justify-center rounded-full">
-                  <span className="text-xs font-bold">H</span>
-                </div>
-                <span className="text-sm font-medium">Haegl Technologies</span>
-              </div>
+              <span className="role-date">Aug 2024 - Jan 2025</span>
             </div>
-            <span className="role-date">Aug 2024 - Jan 2025</span>
+            <div className="company-badge mt-2">
+              <div className="w-6 h-6 bg-secondary flex items-center justify-center rounded-full">
+                <span className="text-xs font-bold">H</span>
+              </div>
+              <span className="text-sm font-medium">Haegl Technologies</span>
+            </div>
             <p className="text-xs text-muted-foreground mt-2">
               Conducted advanced data analysis and built ML models, achieving significant improvements in data accuracy and processing efficiency.
             </p>
